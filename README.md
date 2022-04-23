@@ -9,4 +9,4 @@ A developer portfolio built with React.
 * CSS
 
 ## Links
-* Deployed: 
+* Deployed: https://johnproodian.github.io/react-portfolio-challenge/
