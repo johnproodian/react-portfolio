@@ -1,3 +1,6 @@
+
+import React, {useState} from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
@@ -8,10 +11,41 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
 function App() {
+
+  const [pages] = useState(["about me", "portfolio", "contact", "resume"])
+  
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
+
   return (
-
-    <About></About>
-
+    <div>
+      <Nav
+        pages={pages}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      >
+      </Nav>
+      
+        <main>
+          {currentPage === "about me" && (
+            <About></About>
+          )}
+          { currentPage === "portfolio" && (
+            <Portfolio></Portfolio>
+          )}
+          { currentPage === "contact" && (
+            <Contact></Contact>
+          )}
+          { currentPage === "resume" && (
+            <Resume></Resume>
+          )}
+        </main>
+      
+      <Footer></Footer>
+    </div>
+    
+    
 
     
   );

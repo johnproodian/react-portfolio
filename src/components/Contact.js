@@ -4,8 +4,8 @@ function Contact() {
 
     return (
 
-        <section>
-            <h1>Contact Me</h1>
+        <section id="contact-section">
+            <h1 id="contact">Contact Me</h1>
             <form>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -26,3 +26,5 @@ function Contact() {
 
     )
 }
+
+export default Contact;
