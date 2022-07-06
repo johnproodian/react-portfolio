@@ -9,7 +9,7 @@ A developer portfolio built with React.
 * CSS
 
 ## Website
-* https://johnproodian.github.io/react-portfolio-challenge/
+* https://johnproodian.github.io/react-portfolio/
 
 ## (Recently Learned) Skills I Used
 * building a single-page application with React
