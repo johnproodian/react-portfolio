@@ -1,6 +1,6 @@
 # React Portfolio
 
-A developer portfolio built with React.
+A developer portfolio built with React, featuring 'About Me,' 'Portfolio,' and 'Contact Me' pages.
 
 ## Built With
 * JavaScript
