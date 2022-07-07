@@ -12,7 +12,7 @@ import Resume from './components/Resume';
 
 function App() {
 
-  const [pages] = useState(["about me", "portfolio", "contact", "resume"])
+  const [pages] = useState(["about me", "portfolio"])
   
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
@@ -34,12 +34,12 @@ function App() {
           { currentPage === "portfolio" && (
             <Portfolio></Portfolio>
           )}
-          { currentPage === "contact" && (
+          {/* { currentPage === "contact" && (
             <Contact></Contact>
-          )}
-          { currentPage === "resume" && (
+          )} */}
+          {/* { currentPage === "resume" && (
             <Resume></Resume>
-          )}
+          )} */}
         </main>
       
       <Footer></Footer>

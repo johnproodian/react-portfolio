@@ -6,7 +6,9 @@ function Contact() {
 
         <section id="contact-section">
             <h1 id="contact">Contact Me</h1>
-            <form>
+
+            <p>Email: john.proodian@gmail.com</p>
+            {/* <form>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" />
@@ -19,7 +21,7 @@ function Contact() {
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" /> 
                 </div>
-            </form>
+            </form> */}
         </section>
 
 
